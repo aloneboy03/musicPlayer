@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Icons link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="./css/style.css">
+    
+    <title>Music Player | Coder</title>
+</head>
+<body>
+    <div class="main">
+        <div class="audio-container" id="audio-container">
+            <!-- Title -->
+            <h4 id="title"></h4>
+
+            <!-- Audio -->
+            <audio src="" id="audio"></audio>
+
+            <!-- Images -->
+            <div class="img-container">
+                 <img src="" alt="music-image" id="cover">
+            </div>
+
+            <!-- Progress -->
+            <div class="progress-container" id="progress-container">
+                <div class="progress" id="progress"></div>
+            </div>
+
+            <!-- Navigation -->
+            <div class="navigation">
+                <button id="prev" class="btn">
+                    <i class="fas fa-backward"></i>
+                </button>
+                <button id="play" class="btn">
+                    <i class="fas fa-play"></i>
+                </button>
+                <button id="next" class="btn">
+                    <i class="fas fa-forward"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Script files -->
+    <script src="./js/script.js"></script>
+</body>
+</html>
